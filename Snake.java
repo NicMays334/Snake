@@ -44,7 +44,7 @@ public class Snake implements ActionListener, KeyListener
 		jframe.setVisible(true);
 		jframe.setSize(805, 700);
 		jframe.setResizable(false);
-		jframe.setTitle("Snake!                                                                                       Project Cast Away Games: By Captain Code");
+		jframe.setTitle("Snake By: Nic Mays 2013");
 		jframe.setLocation(dim.width / 2 - jframe.getWidth()/2, dim.height/2 - jframe.getHeight()/2);
 		jframe.add(renderPanel = new RenderPanel());
 		jframe.setDefaultCloseOperation(jframe.EXIT_ON_CLOSE);
@@ -119,6 +119,10 @@ public class Snake implements ActionListener, KeyListener
 					
 					cherry.setLocation(random.nextInt(79), random.nextInt(66));
 				}
+			}
+			if(over)
+			{
+				jframe.setTitle("GAME OVER! Press space to continue.");
 			}
 		}
 	}
