@@ -11,11 +11,6 @@ Features:
 	Different titles for both Gameplay and Game Over
 	Increasing difficulty as game goes on
 	Scoreboard
-
-@TODO: Next releases
-	High Scores List
-	Menu with Buttons - paths to directions, High Scores and gameplay
-	Themes
 	
 Directions:
 	After downloading the repository as a .zip
